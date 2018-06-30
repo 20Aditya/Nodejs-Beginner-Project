@@ -1,0 +1,268 @@
+doctype html
+//
+  Template Name: Oleald
+  Author: <a href="https://www.os-templates.com/">OS Templates</a>
+  Author URI: https://www.os-templates.com/
+  Licence: Free to use under our free template licence terms
+  Licence URI: https://www.os-templates.com/template-terms
+// To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations
+head
+  title Oleald | Pages | Basic Grid
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+  link(href='/styles/layout.css' rel='stylesheet' type='text/css' media='all')
+  style(type='text/css').
+    /* DEMO ONLY */
+    .container .demo{text-align:center;}
+    .container .demo div{padding:8px 0;}
+    .container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+    .container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+    @media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+    /* DEMO ONLY */
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+// Top Background Image Wrapper
+.bgded.overlay.light(style="background-image:url('../images/demo/backgrounds/01.png');")
+  // ################################################################################################
+  .wrapper.row0
+    #topbar.hoc.clear
+      // ################################################################################################
+      .fl_left
+        // ################################################################################################
+        ul.nospace
+          li
+            i.fa.fa-phone
+            |  +00 (123) 456 7890
+          li
+            i.fa.fa-envelope-o
+            |  info@domain.com
+        // ################################################################################################
+      .fl_right
+        // ################################################################################################
+        ul.nospace
+          li
+            a(href='../index.html')
+              i.fa.fa-lg.fa-home
+          li
+            a(href='#' title='Help Centre')
+              i.fa.fa-life-bouy
+          li
+            a(href='#' title='Login')
+              i.fa.fa-lg.fa-sign-in
+          li
+            a(href='#' title='Sign Up')
+              i.fa.fa-lg.fa-edit
+        // ################################################################################################
+      // ################################################################################################
+  // ################################################################################################
+  // ################################################################################################
+  // ################################################################################################
+  .wrapper.row1
+    header#header.hoc.clear
+      // ################################################################################################
+      #logo.fl_left
+        h1
+          a(href='../index.html') Oleald
+      nav#mainav.fl_right
+        ul.clear
+          li
+            a(href='../index.html') Home
+          li.active
+            a.drop(href='#') Pages
+            ul
+              li
+                a(href='gallery.html') Gallery
+              li
+                a(href='full-width.html') Full Width
+              li
+                a(href='sidebar-left.html') Sidebar Left
+              li
+                a(href='sidebar-right.html') Sidebar Right
+              li.active
+                a(href='basic-grid.html') Basic Grid
+          li
+            a.drop(href='#') Dropdown
+            ul
+              li
+                a(href='#') Level 2
+              li
+                a.drop(href='#') Level 2 + Drop
+                ul
+                  li
+                    a(href='#') Level 3
+                  li
+                    a(href='#') Level 3
+                  li
+                    a(href='#') Level 3
+              li
+                a(href='#') Level 2
+          li
+            a(href='#') Link Text
+          li
+            a(href='#') Link Text
+      // ################################################################################################
+  // ################################################################################################
+  // ################################################################################################
+  // ################################################################################################
+  #breadcrumb.hoc.clear
+    // ################################################################################################
+    ul
+      li
+        a(href='#') Home
+      li
+        a(href='#') Lorem
+      li
+        a(href='#') Ipsum
+      li
+        a(href='#') Dolor
+    // ################################################################################################
+  // ################################################################################################
+// End Top Background Image Wrapper
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+.wrapper.row3
+  main.hoc.container.clear
+    // main body
+    // ################################################################################################
+    .content
+      // ################################################################################################
+      h2 Half
+      // ################################################################################################
+      .group.btmspace-50.demo
+        .one_half.first 1/2
+        .one_half 1/2
+      // ################################################################################################
+      h2 Quarter
+      // ################################################################################################
+      .group.btmspace-50.demo
+        .one_quarter.first 1/4
+        .one_quarter 1/4
+        .one_quarter 1/4
+        .one_quarter 1/4
+      .group.btmspace-50.demo
+        .one_quarter.first 1/4
+        .one_quarter 1/4
+        .two_quarter 2/4 or 1/2
+      .group.btmspace-50.demo
+        .one_quarter.first 1/4
+        .three_quarter 3/4
+      // ################################################################################################
+      h2 Third
+      // ################################################################################################
+      .group.btmspace-50.demo
+        .one_third.first 1/3
+        .one_third 1/3
+        .one_third 1/3
+      .group.demo
+        .one_third.first 1/3
+        .two_third 2/3
+      // ################################################################################################
+    // ################################################################################################
+    // / main body
+    .clear
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+.wrapper.row2.bgded.overlay(style="background-image:url('../images/demo/backgrounds/04.png');")
+  section.hoc.cta.clear
+    // ################################################################################################
+    .sectiontitle
+      h6.heading Condimentum ullamcorper vehicula
+      p Velit vel pulvinar elit feugiat vel vivamus venenatis nunc ac
+    form(method='post' action='#')
+      fieldset
+        legend Newsletter:
+        input.btmspace-15(type='text' value='' placeholder='Enter Your Email Here…')
+        button(type='submit' value='submit') Submit
+    // ################################################################################################
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+.wrapper.row4
+  footer#footer.hoc.clear
+    // ################################################################################################
+    article.one_quarter.first
+      h6.heading Sapien suscipit nec
+      p
+        | Ullamcorper quam eleifend donec vulputate ligula vel lacus vulputate ac efficitur odio malesuada curabitur nec nisl ac sapien dictum.
+      p
+        | Scelerisque eget nec massa cras tristique sapien vel tortor varius a varius lacus&mldr;
+      p.nospace
+        a(href='#') Read More
+    .one_quarter
+      h6.heading Placerat phasellus
+      ul.nospace.btmspace-30.linklist.contact
+        li
+          i.fa.fa-map-marker
+          address
+            | Street Name &amp; Number, Town, Postcode/Zip
+        li
+          i.fa.fa-phone
+          |  +00 (123) 456 7890
+        li
+          i.fa.fa-envelope-o
+          |  info@domain.com
+      ul.faico.clear
+        li
+          a.faicon-facebook(href='#')
+            i.fa.fa-facebook
+        li
+          a.faicon-twitter(href='#')
+            i.fa.fa-twitter
+        li
+          a.faicon-dribble(href='#')
+            i.fa.fa-dribbble
+        li
+          a.faicon-linkedin(href='#')
+            i.fa.fa-linkedin
+    .one_quarter
+      h6.heading Sapien suspendisse non
+      ul.nospace.linklist
+        li
+          a(href='#') Egestas cursus purus
+        li
+          a(href='#') Quis rutrum est accumsan
+        li
+          a(href='#') Sed nunc commodo massa
+        li
+          a(href='#') Vel elit eleifend
+        li
+          a(href='#') Sollicitudin morbi feugiat
+    .one_quarter
+      h6.heading Erat id sem fringilla
+      ul.nospace.linklist
+        li
+          a(href='#') Mollis placerat in at
+        li
+          a(href='#') Ligula eget dui ultrices
+        li
+          a(href='#') Porta maecenas eget
+        li
+          a(href='#') Mi a velit tincidunt
+        li
+          a(href='#') Aliquam vel sit amet
+    // ################################################################################################
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+.wrapper.row5
+  #copyright.hoc.clear
+    // ################################################################################################
+    p.fl_left
+      | Copyright &copy; 2018 - All Rights Reserved - 
+      a(href='#') Domain Name
+    p.fl_right
+      | Template by 
+      a(target='_blank' href='https://www.os-templates.com/' title='Free Website Templates') OS Templates
+    // ################################################################################################
+// ################################################################################################
+// ################################################################################################
+// ################################################################################################
+a#backtotop(href='#top')
+  i.fa.fa-chevron-up
+// JAVASCRIPTS
+script(src='../layout/scripts/jquery.min.js')
+script(src='../layout/scripts/jquery.backtotop.js')
+script(src='../layout/scripts/jquery.mobilemenu.js')
